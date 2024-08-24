@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-white">
     <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
             header section
     =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->
@@ -54,10 +54,10 @@
                 </div>
            
                 <div class="navbar-end">
-                    <div class="hidden md:block md:flex items-center gap-3">
-                        <a href="#" class="inline-block w-7 h-7 bg-gray-500 rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass text-[#E9E9E9]"></i></a>
+                    <div class="hidden md:block md:flex items-center md:gap-3">
+                        <a href="#" class="inline-block md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass text-[#E9E9E9]"></i></a>
 
-                        <a href="#" class="inline-block w-7 h-7 bg-gray-500 rounded-full flex justify-center items-center"> <i class="fa-solid fa-cart-shopping text-[#E9E9E9]"></i></a>
+                        <a href="#" class="inline-block md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"> <i class="fa-solid fa-cart-shopping text-[#E9E9E9]"></i></a>
 
                         <a class="btn bg-[#ABEF5F] rounded-3xl">Book Consult<div class="rounded-full flex items-center justify-center bg-black w-6 h-6">
                             <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
@@ -98,5 +98,42 @@
                 </div>
             </section>
     </header>
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+            main section
+    =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->    
+    <main class="bg-gray-300 ">
+        <div class="w-4/5 pt-12 mx-auto md:flex md:justify-around items-center">
+            <!-- text item -->
+            <div class=" md:w-2/5 md:relative">
+                <div class="absolute -top-12 -left-20">
+                    <img class="hidden md:inline" src="./assets/Vector.png" alt="">
+                </div>
+                <button class="btn btn-sm bg-transparent text-[#494949] font-bold border-none"><div><i class="fa-solid fa-arrow-right"></i></div> About Us</button>
+                <h1 class="font-bold text-[#212121] text-3xl mt-4">We design thoughtful, liveable spaces</h1>
+                <p class="text-[#494949] mt-4">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <!-- card item1 -->
+                <div class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4">
+                    <div><img src="./assets/commercial.png" alt=""></div>
+                    <div>
+                        <h3 class="text-[#494949] font-bold">Commercial</h3>
+                        <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                    <!-- card item2 -->
+                    <div class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4">
+                        <div><img src="./assets/commercial.png" alt=""></div>
+                        <div>
+                            <h3 class="text-[#494949] font-bold">Commercial</h3>
+                            <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>                
+            </div>
+            <!-- img item  -->
+            <div class="flex items-center justify-center  py-12 my-auto">
+                <img class=" md:w-4/5" src="./assets/Rectangle.png" alt="">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
