@@ -1,334 +1,768 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assaingment-3</title>
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- fontawesome kit -->
-<script src="https://kit.fontawesome.com/807ce45ff6.js" crossorigin="anonymous"></script>
-<!-- gogle font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body class="bg-white">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome kit -->
+    <script
+      src="https://kit.fontawesome.com/807ce45ff6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- gogle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white">
     <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
             header section
     =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->
-    <header class="bg-gradient-to-r from-[#ffffff] to-[#ffffff] md:w-4/5 mx-auto p-5">
-        <!-- nev section end -->
-            <div class="navbar ">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <ul
-                            tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
-                        </ul>
-                    </div>
-                       
-                    <a class="btn btn-ghost text-xl text-[#212121]"> <div class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6">
-                        <i class="fa-solid fa-arrow-up rotate-45"></i>
-                    </div> Rinterio</a>
-              
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-[#737373]">
-                    <li  class="text-[#494949] font-bold"><a>Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
+    <header
+      class="bg-gradient-to-r from-[#ffffff] to-[#ffffff] md:w-4/5 mx-auto p-5"
+    >
+      <!-- nev section end -->
+      <div class="navbar">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
                 </ul>
-                </div>
-           
-                <div class="navbar-end">
-                    <div class="hidden md:flex items-center md:gap-3">
-                        <a href="#" class=" md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"><i class="fa-solid fa-magnifying-glass text-[#E9E9E9]"></i></a>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
 
-                        <a href="#" class=" md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"> <i class="fa-solid fa-cart-shopping text-[#E9E9E9]"></i></a>
-
-                        <a class="btn bg-[#ABEF5F] hover:text-white rounded-3xl">Book Consult<div class="rounded-full flex items-center justify-center bg-black w-6 h-6">
-                            <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
-                        </div></a>
-                    </div>
-                </div>
-          
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
+          <a class="btn btn-ghost text-xl text-[#212121]">
+            <div
+              class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6"
+            >
+              <i class="fa-solid fa-arrow-up rotate-45"></i>
             </div>
-            <!-- banner section -->
-            <section>
-                <!-- img section -->
-                <div class="md:w-3/5 mx-auto flex justify-center">
-                    <img src="./assets/banner.png" alt="">
-                </div>
-                <!-- banner text section -->
-                <div>
-                    <h1 class="font-bold text-3xl md:text-5xl text-black text-center  mx-auto">A barn house of this design has a striking appearance</h1>
-                    <p class="text-center w-4/5 mx-auto py-5">
-                        A barn house with this design exudes a striking blend of rustic charm and modern elegance. The structure typically features a tall, peaked roof, reminiscent of traditional agricultural barns,</p>
-                </div>
-                <div class="flex justify-center">
-                    <a class="btn rounded-3xl bg-[#ABEF5F80] hover:text-white font-bold text-[#212121]">View Details<div class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6">
-                        <i class="fa-solid fa-arrow-up rotate-45 "></i>
-                    </div></a>
-                </div>
-            </section>
+            Rinterio</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[#737373]">
+            <li class="text-[#494949] font-bold"><a>Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end">
+          <div class="hidden md:flex items-center md:gap-3">
+            <a
+              href="#"
+              class="md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"
+              ><i class="fa-solid fa-magnifying-glass text-[#E9E9E9]"></i
+            ></a>
+
+            <a
+              href="#"
+              class="md:w-7 md:h-7 bg-gray-500 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-cart-shopping text-[#E9E9E9]"></i
+            ></a>
+
+            <a class="btn bg-[#ABEF5F] hover:text-white rounded-3xl"
+              >Book Consult
+              <div
+                class="rounded-full flex items-center justify-center bg-black w-6 h-6"
+              >
+                <i class="fa-solid fa-arrow-up rotate-45 text-white"></i></div
+            ></a>
+          </div>
+        </div>
+
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- banner section -->
+      <section>
+        <!-- img section -->
+        <div class="md:w-3/5 mx-auto flex justify-center">
+          <img src="./assets/banner.png" alt="" />
+        </div>
+        <!-- banner text section -->
+        <div>
+          <h1
+            class="font-bold text-3xl md:text-5xl text-black text-center mx-auto"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <p class="text-center w-4/5 mx-auto py-5">
+            A barn house with this design exudes a striking blend of rustic
+            charm and modern elegance. The structure typically features a tall,
+            peaked roof, reminiscent of traditional agricultural barns,
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <a
+            class="btn rounded-3xl bg-[#ABEF5F80] hover:text-white font-bold text-[#212121]"
+            >View Details
+            <div
+              class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6"
+            >
+              <i class="fa-solid fa-arrow-up rotate-45"></i></div
+          ></a>
+        </div>
+      </section>
     </header>
     <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
             main section
-    =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->    
-    <main class="bg-gray-300 ">
-        <div class="w-4/5 pt-12 mx-auto md:flex md:justify-around items-center">
-            <!-- text item -->
-            <div class=" md:w-2/5 md:relative">
-                <div class="absolute -top-12 -left-20">
-                    <img class="hidden md:inline" src="./assets/Vector.png" alt="">
-                </div>
-                <button class="btn btn-sm bg-transparent text-[#494949] font-bold border-none"><div><i class="fa-solid fa-arrow-right"></i></div> About Us</button>
-                <h1 class="font-bold text-[#212121] text-3xl mt-4">We design thoughtful, liveable spaces</h1>
-                <p class="text-[#494949] mt-4">We design thoughtful, livable spaces that seamlessly blend functionality with beauty. Each space is carefully crafted to reflect the unique needs and lifestyle of its occupants,</p>
-                    <!-- card item1 -->
-                <div class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4">
-                    <div><img src="./assets/commercial.png" alt=""></div>
-                    <div>
-                        <h3 class="text-[#494949] font-bold">Commercial</h3>
-                        <p class="text-[#737373]">Our commercial designs are tailored to create environments that are both functional and visually .</p>
-                    </div>
-                </div>
-                    <!-- card item2 -->
-                    <div class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4">
-                        <div><img src="./assets/residential.png" alt=""></div>
-                        <div>
-                            <h3 class="text-[#494949] font-bold">Residential</h3>
-                            <p class="text-[#737373]">Residential design is an art that blends personal expression with practical living.</p>
-                        </div>
-                    </div>                
+    =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->
+    <main class="bg-gray-300">
+      <div class="w-4/5 pt-12 mx-auto md:flex md:justify-around items-center">
+        <!-- text item -->
+        <div class="md:w-2/5 md:relative">
+          <div class="absolute -top-12 -left-20">
+            <img class="hidden md:inline" src="./assets/Vector.png" alt="" />
+          </div>
+          <button
+            class="btn btn-sm bg-transparent text-[#494949] font-bold border-none"
+          >
+            <div><i class="fa-solid fa-arrow-right"></i></div>
+            About Us
+          </button>
+          <h1 class="font-bold text-[#212121] text-3xl mt-4">
+            We design thoughtful, liveable spaces
+          </h1>
+          <p class="text-[#494949] mt-4">
+            We design thoughtful, livable spaces that seamlessly blend
+            functionality with beauty. Each space is carefully crafted to
+            reflect the unique needs and lifestyle of its occupants,
+          </p>
+          <!-- card item1 -->
+          <div
+            class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4"
+          >
+            <div><img src="./assets/commercial.png" alt="" /></div>
+            <div>
+              <h3 class="text-[#494949] font-bold">Commercial</h3>
+              <p class="text-[#737373]">
+                Our commercial designs are tailored to create environments that
+                are both functional and visually .
+              </p>
             </div>
-            <!-- img item  -->
-            <div class="flex items-center justify-center  py-12 my-auto">
-                <img class=" md:w-4/5" src="./assets/Rectangle.png" alt="">
+          </div>
+          <!-- card item2 -->
+          <div
+            class="flex justify-center items-center gap-5 py-5 bg-white rounded-lg px-2 mt-4"
+          >
+            <div><img src="./assets/residential.png" alt="" /></div>
+            <div>
+              <h3 class="text-[#494949] font-bold">Residential</h3>
+              <p class="text-[#737373]">
+                Residential design is an art that blends personal expression
+                with practical living.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- img item  -->
+        <div class="flex items-center justify-center py-12 my-auto">
+          <img class="md:w-4/5" src="./assets/Rectangle.png" alt="" />
+        </div>
+      </div>
+      <!-- how to work section -->
+      <section class="w-4/5 mx-auto">
+        <!-- work title -->
+        <div class="">
+          <div class="flex justify-center">
+            <button
+              class="btn btn-sm bg-slate-200 hover:bg-white text-black font-bold border-none"
+            >
+              <div><i class="fa-solid fa-arrow-right"></i></div>
+              How we works
+            </button>
+          </div>
+          <h1
+            class="font-bold text-2xl md:text-4xl my-4 text-[#212121] text-center"
+          >
+            Our Works Process
+          </h1>
+          <p class="text-[#494949] text-center md:w-3/5 mx-auto">
+            Our work process is a carefully crafted journey designed to ensure
+            that each project we undertake is
+          </p>
+        </div>
+        <!-- card 1 -->
+        <div class="grid md:w-full md:grid-cols-4 gap-5 py-10">
+          <div class="card bg-[#E7C1D3] shadow-xl">
+            <div class="card-body text-[#1C1C1C]">
+              <div class="">
+                <img src="./assets/concept.png" alt="" />
+              </div>
+              <h2 class="card-title font-bold">Concept</h2>
+              <p class="text-[#494949]">
+                The concept phase is the heart of any design project, where
+                ideas begin to take shape and the foundation
+              </p>
+            </div>
+          </div>
+          <!-- card - 2 -->
+          <div class="card bg-[#EFDA6E] shadow-xl">
+            <div class="card-body text-[#1C1C1C]">
+              <div class="">
+                <img src="./assets/flow-chart.png" alt="" />
+              </div>
+              <h2 class="card-title font-bold">Design Process</h2>
+              <p class="text-[#494949]">
+                The design process is a meticulous journey that transforms an
+                idea into a fully realized space.
+              </p>
+            </div>
+          </div>
+          <!-- card - 3 -->
+          <div class="card bg-[#A4DAC3] shadow-xl">
+            <div class="card-body text-[#1C1C1C]">
+              <div class="">
+                <img src="./assets/vision.png" alt="" />
+              </div>
+              <h2 class="card-title font-bold">Supervision</h2>
+              <p class="text-[#494949]">
+                Supervision is a critical aspect of ensuring that the design
+                vision is flawlessly executed.
+              </p>
+            </div>
+          </div>
+          <!-- card - 4 -->
+          <div class="card bg-[#77AAEA] shadow-xl">
+            <div class="card-body text-[#1C1C1C]">
+              <div class="">
+                <img src="./assets/budget-planning.png" alt="" />
+              </div>
+              <h2 class="card-title font-bold">Budget Planning</h2>
+              <p class="text-[#494949]">
+                Budget planning is essential to keep your project financially on
+                track. It starts with understanding.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+            chelenging section
+    =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- -->
+      <section class="bg-white py-10">
+        <!-- title section -->
+        <div>
+          <div class="flex justify-center font-bold">
+            <button
+              class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none"
+            >
+              <div><i class="fa-solid fa-arrow-right"></i></div>
+              Explore our Latest works
+            </button>
+          </div>
+          <h1
+            class="font-bold text-3xl md:text-5xl text-[#1C1C1C] text-center py-5"
+          >
+            Our Latest Portfolio
+          </h1>
+          <p class="text-center md:w-3/5 mx-auto pb-5">
+            Our latest portfolio showcases a diverse range of projects that
+            highlight our commitment to innovative design and meticulous
+            craftsmanship
+          </p>
+        </div>
+        <!-- card section -->
+        <div class="grid md:grid-cols-12 text-black md:w-4/5 mx-auto gap-5">
+          <!-- card-1 -->
+          <div class="col-span-8 rounded-xl">
+            <div
+              class="card card-side bg-white grid grid-cols-1 md:grid-cols-2 shadow-xl"
+            >
+              <figure class="py-5 px-4 w-full">
+                <img src="./assets/img1.png" alt="" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Commercial</h2>
+                <p class="">
+                  Our commercial portfolio features a range of projects designed
+                  to enhance functionality and brand identity.
+                </p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-ghost">
+                    View Details
+                    <div
+                      class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6"
+                    >
+                      <i class="fa-solid fa-arrow-up rotate-45"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div
+            class="card bg-white bg-transparent col-span-8 md:col-span-4 shadow-xl"
+          >
+            <img src="./assets/img2.png" class="pt-12 px-5" alt="" />
+          </div>
+          <!-- card-3 -->
+          <div class="border col-span-8 md:col-span-3 card shadow-xl">
+            <div class="px-5 md:pt-12 w-full pl-16 md:pl-5 py-4">
+              <img src="./assets/img3.png" alt="" />
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="col-span-8 md:col-span-6 rounded-xl">
+            <div
+              class="card card-side bg-white bg-transparent shadow-xl grid grid-cols-1 md:grid-cols-2"
+            >
+              <figure class="py-5 px-4 w-full">
+                <img src="./assets/img4.png" alt="" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Commercial</h2>
+                <p class="">
+                  delivering spaces that support productivity and reflect the
+                  essence of each brand. .
+                </p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-ghost">
+                    View Details
+                    <div
+                      class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6"
+                    >
+                      <i class="fa-solid fa-arrow-up rotate-45"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-5 -->
+          <div class="border col-span-8 md:col-span-3 card shadow-xl">
+            <div class="px-5 md:pt-12 w-full pl-16 md:pl-5 py-4">
+              <img src="./assets/img5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=
+            my chalange part
+       =-==-=-=-=-=-=-=-==-=-=-=-==-=- -->
+       <section>
+        <!-- chalange -->
+        <div
+          class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div
+                class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                    <div
+                        class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none">
+                        <div><i class="fa-solid fa-arrow-right"></i></div>
+                        Buy house
+                      </button>
+                    </div>
+                    <h2
+                    class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg
+                            viewBox="0 0 52 24"
+                            fill="currentColor"
+                            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                            <defs>
+                                <pattern
+                                id="7e5e8ff8-1960-4094-a63a-2a0c0f922d69"
+                                x="0"
+                                y="0"
+                                width=".135"
+                                height=".30"
+                                >
+                                <circle cx="1" cy="1" r=".7"></circle>
+                                </pattern>
+                            </defs>
+                            <rect
+                                fill="url(#7e5e8ff8-1960-4094-a63a-2a0c0f922d69)"
+                                width="52"
+                                height="24">
+                            </rect>
+                        </svg>
+                        <span class="relative">Our Home</span>
+                    </span>
+                    pricing.
+                    </h2>
+                    <p class="text-base text-gray-700 md:text-lg">Our Home Service was born out of a simple idea: to bring comfort and convenience to every doorstep. In a world where time is a luxury, 
+                    </p>
+            </div>
+            <div class="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+                <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+                        <div class="text-center">
+                            <div class="text-lg font-semibold">Normel</div>
+                            <div class="flex items-center justify-center mt-2">
+                            <div class="mr-1 text-5xl font-bold">tryle</div>
+                            </div>
+                            <div class="mt-2 space-y-3">
+                            <div class="text-gray-700">Ac conectet</div>
+                            <div class="text-gray-700">suiming pool</div>
+                            <div class="text-gray-700">play gawond</div>
+                            </div>
+                        </div>
+                        <div>
+                            <a
+                            href="/"
+                            class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+                            >
+                            Join For tryle
+                            </a>
+                            <p
+                            class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto"
+                            >
+                            Our Home Service is here to make your life easier, one task at a time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+                    <div class="text-center">
+                        <div class="text-lg font-semibold">Pro</div>
+                        <div class="flex items-center justify-center mt-2">
+                        <div class="mr-1 text-5xl font-bold">$35000</div>
+                        <div class="text-gray-700">/ mo</div>
+                        </div>
+                        <div class="mt-2 space-y-3">
+                        <div class="text-gray-700">All service best</div>
+                        <div class="text-gray-700">grat this room</div>
+                        <div class="text-gray-700">best room </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="/" class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-blue-50 text-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                        Join Pro
+                        </a>
+                        <p class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+                        Our Home Service is here to make your life easier, one task at a time.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+                    <div class="text-center">
+                        <div class="text-lg font-semibold">All time best</div>
+                        <div class="flex items-center justify-center mt-2">
+                        <div class="mr-1 text-5xl font-bold">$5000</div>
+                        <div class="text-gray-700">/ mo</div>
+                        </div>
+                        <div class="mt-2 space-y-3">
+                        <div class="text-gray-700">room all farnicar</div>
+                        <div class="text-gray-700">best room</div>
+                        <div class="text-gray-700">oder time 1.30</div>
+                        </div>
+                    </div>
+                    <div>
+                        <a
+                        href="/"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+                        >
+                        Join this house
+                        </a>
+                        <p
+                        class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto"
+                        >
+                        Our Home Service is here to make your life easier, one task at a time.
+                        </p>
+                    </div>
+                    </div>
             </div>
         </div>
-        <!-- how to work section -->
-        <section class="w-4/5 mx-auto">
-            <!-- work title -->
-            <div class="">
-                <div class="flex justify-center">
-                    <button class="btn btn-sm bg-slate-200 hover:bg-white text-black font-bold border-none"><div><i class="fa-solid fa-arrow-right"></i></div>How we works</button>
-                </div>
-                <h1 class="font-bold text-2xl md:text-4xl my-4 text-[#212121] text-center">Our Works Process</h1>
-                <p class="text-[#494949] text-center md:w-3/5 mx-auto">Our work process is a carefully crafted journey designed to ensure that each project we undertake is</p>
-            </div>
-            <!-- card 1 -->
-            <div class="grid  md:w-full md:grid-cols-4 gap-5 py-10">
-                <div class="card bg-[#E7C1D3] shadow-xl">
-                    <div class="card-body text-[#1C1C1C]">
-                      <div  class="">
-                        <img src="./assets/concept.png" alt="">
-                      </div>
-                      <h2 class="card-title font-bold">Concept</h2>
-                      <p class=" text-[#494949]">The concept phase is the heart of any design project, where ideas begin to take shape and the foundation</p>
-                    </div>
-                </div>
-                <!-- card - 2 -->
-                <div class="card bg-[#EFDA6E] shadow-xl">
-                    <div class="card-body text-[#1C1C1C]">
-                      <div  class="">
-                        <img src="./assets/flow-chart.png" alt="">
-                      </div>
-                      <h2 class="card-title font-bold">Design Process</h2>
-                      <p class=" text-[#494949]">The design process is a meticulous journey that transforms an idea into a fully realized space.</p>
-                    </div>
-                </div>
-                <!-- card - 3 -->
-                <div class="card bg-[#A4DAC3] shadow-xl">
-                    <div class="card-body text-[#1C1C1C]">
-                      <div  class="">
-                        <img src="./assets/vision.png" alt="">
-                      </div>
-                      <h2 class="card-title font-bold">Supervision</h2>
-                      <p class=" text-[#494949]">Supervision is a critical aspect of ensuring that the design vision is flawlessly executed.</p>
-                    </div>
-                </div> 
-                <!-- card - 4 -->
-                <div class="card bg-[#77AAEA] shadow-xl">
-                    <div class="card-body text-[#1C1C1C]">
-                      <div  class="">
-                        <img src="./assets/budget-planning.png" alt="">
-                      </div>
-                      <h2 class="card-title font-bold">Budget Planning</h2>
-                      <p class=" text-[#494949]">Budget planning is essential to keep your project financially on track. It starts with understanding.</p>
-                    </div>
-                </div>                                                 
-            </div>
-        </section>
-        
-    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-            chelenging section
-    =-==-=-=-=-=-==-=-=-=-=-=-=-=-==- --> 
-         <section class="bg-white py-10" >
-            <!-- title section -->
-            <div>
-                <div class="flex justify-center font-bold">
-                    <button class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none"><div><i class="fa-solid fa-arrow-right"></i></div>Explore our Latest works</button>
-                </div>
-                <h1 class="font-bold text-3xl md:text-5xl text-[#1C1C1C] text-center py-5">Our Latest Portfolio</h1>
-                <p class="text-center md:w-3/5 mx-auto pb-5">Our latest portfolio showcases a diverse range of projects that highlight our commitment to innovative design and meticulous craftsmanship</p>
-            </div>
-            <!-- card section -->
-            <div class="grid md:grid-cols-12 text-black md:w-4/5 mx-auto gap-5">
-                <!-- card-1 -->
-                <div class="col-span-8 rounded-xl">
-                    <div class="card card-side bg-white grid grid-cols-1 md:grid-cols-2 shadow-xl">
-                        <figure class="py-5 px-4 w-full">
-                            <img src="./assets/img1.png" alt="">
-                        </figure>
-                        <div class="card-body">
-                          <h2 class="card-title">Commercial</h2>
-                          <p class="">Our commercial portfolio features a range of projects designed to enhance functionality and brand identity.</p>
-                          <div class="card-actions justify-start">
-                            <button class="btn btn-ghost">View Details<div class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6">
-                                <i class="fa-solid fa-arrow-up rotate-45 "></i>
-                            </div></button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <!-- card-2 -->
-                <div class="card bg-white bg-transparent col-span-8 md:col-span-4 shadow-xl">
-                    <img src="./assets/img2.png" class="pt-12 px-5" alt="">
-                  </div>
-                <!-- card-3 -->
-                <div class=" border col-span-8 md:col-span-3 card shadow-xl">
-                    <div class="px-5 md:pt-12 w-full pl-16 md:pl-5 py-4">
-                        <img src="./assets/img3.png" alt="">
-                    </div>
-                </div>
-                <!-- card-4 -->
-                <div class="col-span-8 md:col-span-6 rounded-xl">
-                    <div class="card card-side bg-white bg-transparent shadow-xl grid grid-cols-1 md:grid-cols-2">
-                        <figure class="py-5 px-4 w-full">
-                            <img src="./assets/img4.png" alt="">
-                        </figure>
-                        <div class="card-body">
-                          <h2 class="card-title">Commercial</h2>
-                          <p class="">delivering spaces that support productivity and reflect the essence of each brand. .</p>
-                          <div class="card-actions justify-start">
-                            <button class="btn btn-ghost">View Details<div class="rounded-full flex items-center justify-center bg-[#ABEF5F80] w-6 h-6">
-                                <i class="fa-solid fa-arrow-up rotate-45 "></i>
-                            </div></button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <!-- card-5 -->                
-                <div class=" border col-span-8 md:col-span-3 card shadow-xl">
-                    <div class="px-5 md:pt-12 w-full pl-16 md:pl-5 py-4">
-                        <img src="./assets/img5.png" alt="">
-                    </div>
-                </div>
-            </div>
-         </section>
-
-        <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+      </section>
+      <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
                 contact section
         =-=-=-=-=-=-=-=--=-=-=--=-=-=-=-= -->
-        <section class="bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat">
-            <div class=" relative w-4/5 md:w-4/6 mx-auto py-8 md:py-20">
-                <div class="flex justify-center font-bold">
-                    <button class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none"><div><i class="fa-solid fa-arrow-right"></i></div> About Us</button>
+      <section class="bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat">
+        <div class="relative w-4/5 md:w-4/6 mx-auto py-8 md:py-20">
+          <div class="flex justify-center font-bold">
+            <button
+              class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none">
+              <div><i class="fa-solid fa-arrow-right"></i></div>
+              About Us
+            </button>
+          </div>
+          <!-- title -->
+          <div class="my-5">
+            <h1
+              class="text-3xl md:text-5xl text-[#212121] font-bold text-center"
+            >
+              Let’s Discuss Next Project
+            </h1>
+            <p class="text-[#494949] text-center mt-3">
+              Share your ideas, goals, and requirements with us, and let’s work
+              together to create a design that meets your needs and exceeds your
+              expectations.
+            </p>
+          </div>
+          <!-- form -->
+          <div class="py-6 space-y-6">
+            <form action="#">
+              <div class="grid grid-cols-6 gap-6">
+                <div class="col-span-6 sm:col-span-3">
+                  <input
+                    type="text"
+                    name="product-name"
+                    id="product-name"
+                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                    placeholder="First Name*"
+                    required=""
+                  />
                 </div>
-                <!-- title -->
-                <div class="my-5">
-                    <h1 class="text-3xl md:text-5xl text-[#212121] font-bold text-center">Let’s Discuss Next Project</h1>
-                    <p class="text-[#494949] text-center mt-3"> Share your ideas, goals, and requirements with us, and let’s work together to create a design that meets your needs and exceeds your expectations. </p>
+                <div class="col-span-6 sm:col-span-3">
+                  <input
+                    type="text"
+                    name="category"
+                    id="category"
+                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                    placeholder="Last Name*"
+                    required=""
+                  />
                 </div>
-                <!-- form -->
-                <div class="py-6 space-y-6">
-                    <form action="#">
-                        <div class="grid grid-cols-6 gap-6">
-                            <div class="col-span-6 sm:col-span-3">
-                                <input type="text" name="product-name" id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="First Name*" required="">
+                <div class="col-span-6 sm:col-span-3">
+                  <input
+                    type="text"
+                    name="brand"
+                    id="brand"
+                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                    placeholder="Phone Number*"
+                    required=""
+                  />
+                </div>
+                <div class="col-span-6 sm:col-span-3">
+                  <input
+                    type="email"
+                    name="price"
+                    id="price"
+                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                    placeholder="Email Number*"
+                    required=""
+                  />
+                </div>
+                <div class="col-span-full">
+                  <textarea
+                    id="product-details"
+                    rows="6"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-4"
+                    placeholder="Write your message here"
+                  ></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="border-gray-200 rounded-b">
+            <button
+              class="text-[#1C1C1C] bg-[#ABEF5F] hover:bg-[#ABEF5F80] focus:ring-4 focus:ring-cyan-200 font-medium rounded-2xl w-full py-2.5 text-center"
+              type="submit"
+            >
+              Send Mail
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=
+            my chalange part
+       =-==-=-=-=-=-=-=-==-=-=-=-==-=- -->
+      <section>
+        <!-- chalange -->
+        <div
+          class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div
+                class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                    <div
+                        class="btn btn-sm bg-[#ABEF5F33] hover:bg-fuchsia-50 text-[#494949] font-bold border-none">
+                        <div><i class="fa-solid fa-arrow-right"></i></div>
+                        About Us
+                      </button>
+                    </div>
+                    <h2
+                    class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg
+                            viewBox="0 0 52 24"
+                            fill="currentColor"
+                            class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                            <defs>
+                                <pattern
+                                id="7e5e8ff8-1960-4094-a63a-2a0c0f922d69"
+                                x="0"
+                                y="0"
+                                width=".135"
+                                height=".30"
+                                >
+                                <circle cx="1" cy="1" r=".7"></circle>
+                                </pattern>
+                            </defs>
+                            <rect
+                                fill="url(#7e5e8ff8-1960-4094-a63a-2a0c0f922d69)"
+                                width="52"
+                                height="24">
+                            </rect>
+                        </svg>
+                        <span class="relative">Our Home</span>
+                    </span>
+                    pricing.
+                    </h2>
+                    <p class="text-base text-gray-700 md:text-lg">Our Home Service was born out of a simple idea: to bring comfort and convenience to every doorstep. In a world where time is a luxury, 
+                    </p>
+            </div>
+            <div class="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+                <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+                        <div class="text-center">
+                            <div class="text-lg font-semibold">Normel</div>
+                            <div class="flex items-center justify-center mt-2">
+                            <div class="mr-1 text-5xl font-bold">tryle</div>
                             </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <input type="text" name="category" id="category" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Last Name*" required="">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <input type="text" name="brand" id="brand" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Phone Number*" required="">
-                            </div>
-                            <div class="col-span-6 sm:col-span-3">
-                                <input type="email" name="price" id="price" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Email Number*" required="">
-                            </div>
-                            <div class="col-span-full">
-                                <textarea id="product-details" rows="6" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-2xl focus:ring-cyan-600 focus:border-cyan-600 block w-full p-4" placeholder="Write your message here"></textarea>
+                            <div class="mt-2 space-y-3">
+                            <div class="text-gray-700">Ac conectet</div>
+                            <div class="text-gray-700">suiming pool</div>
+                            <div class="text-gray-700">play gawond</div>
                             </div>
                         </div>
-                    </form>
-                </div>
-            
-                <div class=" border-gray-200 rounded-b">
-                    <button class="text-[#1C1C1C] bg-[#ABEF5F] hover:bg-[#ABEF5F80] focus:ring-4 focus:ring-cyan-200 font-medium rounded-2xl w-full py-2.5 text-center" type="submit">Send Mail</button>
-                </div>
-            
+                        <div>
+                            <a
+                            href="/"
+                            class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+                            >
+                            Join For tryle
+                            </a>
+                            <p
+                            class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto"
+                            >
+                            Our Home Service is here to make your life easier, one task at a time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+                    <div class="text-center">
+                        <div class="text-lg font-semibold">Pro</div>
+                        <div class="flex items-center justify-center mt-2">
+                        <div class="mr-1 text-5xl font-bold">$35000</div>
+                        <div class="text-gray-700">/ mo</div>
+                        </div>
+                        <div class="mt-2 space-y-3">
+                        <div class="text-gray-700">All service best</div>
+                        <div class="text-gray-700">grat this room</div>
+                        <div class="text-gray-700">best room </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="/" class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-blue-50 text-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                        Join Pro
+                        </a>
+                        <p class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+                        Our Home Service is here to make your life easier, one task at a time.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+                    <div class="text-center">
+                        <div class="text-lg font-semibold">All time best</div>
+                        <div class="flex items-center justify-center mt-2">
+                        <div class="mr-1 text-5xl font-bold">$5000</div>
+                        <div class="text-gray-700">/ mo</div>
+                        </div>
+                        <div class="mt-2 space-y-3">
+                        <div class="text-gray-700">room all farnicar</div>
+                        <div class="text-gray-700">best room</div>
+                        <div class="text-gray-700">oder time 1.30</div>
+                        </div>
+                    </div>
+                    <div>
+                        <a
+                        href="/"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded shadow-md hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+                        >
+                        Join this house
+                        </a>
+                        <p
+                        class="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto"
+                        >
+                        Our Home Service is here to make your life easier, one task at a time.
+                        </p>
+                    </div>
+                    </div>
             </div>
-        </section>
-        <section>
-            
-        </section>
+        </div>
+      </section>
     </main>
-        <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
                 footer section
         =-=-=-=-=-=-=-=--=-=-=--=-=-=-=-= -->
-        <footer class="bg-[#1C1C1C] py-8">
-            <div class="w-4/5 mx-auto flex justify-center">
-                <a class="btn btn-ghost text-xl text-[#E9E9E9]"> <div class="rounded-full flex items-center justify-center bg-[#ABEF5F] w-6 h-6">
-                    <i class="fa-solid fa-arrow-up rotate-45 text-[#1C1C1C]"></i>
-                </div> Rinterio</a>
-            </div>
-            <div class="flex justify-center md:w-3/5 mx-auto py-4 text-center">
-                <p class="text-[#737373]">The Rinterio project exemplifies our commitment to creating functional and aesthetically pleasing spaces.</p>
-            </div>
-            <!-- footer menu -->
-            <div class=" flex justify-center">
-                <ul class="menu menu-horizontal px-1 text-[#E9E9E9] grid grid-cols-1 md:grid-cols-5 text-center mx-auto">
-                    <li  class=""><a>Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
-                </ul>
-            </div>  
-            <div class="w-4/5 flex justify-center mx-auto py-4">
-                <a class="btn bg-[#ABEF5F] rounded-3xl text-[#1C1C1C] font-bold hover:bg-[#ABEF5F80]">Book Consult<div class="rounded-full flex items-center justify-center bg-black w-6 h-6">
-                    <i class="fa-solid fa-arrow-up rotate-45 text-white"></i>
-                </div></a>
-            </div>
-        </footer>
-</body>
+    <footer class="bg-[#1C1C1C] py-8">
+      <div class="w-4/5 mx-auto flex justify-center">
+        <a class="btn btn-ghost text-xl text-[#E9E9E9]">
+          <div
+            class="rounded-full flex items-center justify-center bg-[#ABEF5F] w-6 h-6"
+          >
+            <i class="fa-solid fa-arrow-up rotate-45 text-[#1C1C1C]"></i>
+          </div>
+          Rinterio</a
+        >
+      </div>
+      <div class="flex justify-center md:w-3/5 mx-auto py-4 text-center">
+        <p class="text-[#737373]">
+          The Rinterio project exemplifies our commitment to creating functional
+          and aesthetically pleasing spaces.
+        </p>
+      </div>
+      <!-- footer menu -->
+      <div class="flex justify-center">
+        <ul
+          class="menu menu-horizontal px-1 text-[#E9E9E9] grid grid-cols-1 md:grid-cols-5 text-center mx-auto"
+        >
+          <li class=""><a>Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="w-4/5 flex justify-center mx-auto py-4">
+        <a
+          class="btn bg-[#ABEF5F] rounded-3xl text-[#1C1C1C] font-bold hover:bg-[#ABEF5F80]"
+          >Book Consult
+          <div
+            class="rounded-full flex items-center justify-center bg-black w-6 h-6"
+          >
+            <i class="fa-solid fa-arrow-up rotate-45 text-white"></i></div
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
